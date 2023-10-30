@@ -1,0 +1,204 @@
+.error {
+    color: red;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.notification {
+    color: green;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.meal-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meal-item {
+    background-color: #d6f1e4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+
+@media (max-width: 600px) {
+    .logo {
+        width: 100px;
+        height: 75px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .app-title-container h1 {
+        font-size: 2rem;
+    }
+}
+
+.header {
+    position: relative;
+    height: 40px;
+}
+
+.header img {
+    position: absolute;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #069F1F;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.text-big {
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-left: 50px;
+    color: #197a57;
+}
+
+.text-small {
+    font-size: 20px;
+    padding-left: 50px;
+    color: #197a57;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-input {
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 400px;
+}
+
+.button {
+    background-color: #1f9868;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #06573d;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-right: 35%;
+    text-align: justify;
+}
+
+.developers-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.developer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.developer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.developer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.developer p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 100px 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    border-style: inset;
+}
+
+.home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #1e1e1e;
+}
+
+.home-description {
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: #1e1e1e;
+}
+
+

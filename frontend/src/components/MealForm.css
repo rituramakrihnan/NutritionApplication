@@ -1,0 +1,62 @@
+.meal-form-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 400px;
+}
+
+button[type="submit"] {
+    display: block;
+    background-color: #1f9868;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-right: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+button[type="add"] {
+    display: block;
+    background-color: #1f9868;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+button[type="add"]:hover {
+    background-color: #06573d;
+}
+
+button[type="submit"]:hover {
+    background-color: #06573d;
+}

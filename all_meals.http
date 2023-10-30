@@ -1,0 +1,22 @@
+###
+POST http://localhost:3002/api/meals
+content-type: application/json
+
+{
+  "name": "Salmon with Roasted Broccoli",
+  "image": "https://i.imgur.com/eUaP6oM.jpg",
+  "calories": 501,
+  "ingredients": ["Honey", "Greek yogurt", "Olive oil", "Garlic"],
+  "cookTime": "25 minutes"
+}
+
+###
+POST http://localhost:3001/api/meals
+content-type: application/json
+
+{
+  "name": "Meal 2",
+  "calories": 13 ,
+  "ingredients": ["Ingr2_1", "Ingr2_2"],
+  "cooktime": "14 min"
+}
